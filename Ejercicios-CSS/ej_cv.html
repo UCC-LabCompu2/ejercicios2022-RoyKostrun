@@ -4,18 +4,34 @@
     <meta charset="UTF-8">
     <title>CV Agustina Aliciardi</title>
     <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="imagenes/wordpress-favicon.jpg" type="image/x-icon">
     <style>
         body{
             text-align: center;
             font-family: 'Gugi', cursive;
+            background: linear-gradient(to right, #ff4444,#E344FFFF);
         }
         div{
-            border: 2px solid #1f1bff;
-            margin: 10px;
+            border: 2px dashed #BAB9D2FF;
+            margin: 10px 20px;
             padding: 5px 30px;
+            background: rgba(225, 110241, 0.42);
+            border-radius: 12px;
         }
         img{
             width: 50px;
+            float: left;
+            border-radius: 50%;
+        }
+        div p{
+            text-align: left;
+            margin: 12px;
+        }
+        #nombre_persona{
+            font-family: 'Square Peg', cursive;
         }
     </style>
 </head>
@@ -23,7 +39,7 @@
 
 <div>
     <img src="imagenes/icono_usuario.jpg">
-    <h1>Nombre Alumno</h1>
+    <h1 id="nombre_persona">Nombre Alumno</h1>
     <h2>Ing. en Computacion</h2>
 </div>
 
