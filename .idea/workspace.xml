@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1767c7c-43f0-400a-873b-ec352862222e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Ejercicios-HTML/ej_animales.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios-HTML/ej_animales.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicios-HTML/ej_formulario.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios-HTML/ej_formulario.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicios-HTML/ej_listas.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios-HTML/ej_listas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicios-HTML/ej_noticia.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios-HTML/ej_noticia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicios-HTML/ej_tablas.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios-HTML/ej_tablas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicios-JavaScript/ConversorUnidades.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios-JavaScript/ConversorUnidades.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicios-JavaScript/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios-JavaScript/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicios-JavaScript/misFunciones.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios-JavaScript/misFunciones.js" afterDir="false" />
-    </list>
+    <list default="true" id="b1767c7c-43f0-400a-873b-ec352862222e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +43,7 @@
       <workItem from="1651579425794" duration="1599000" />
       <workItem from="1651623788714" duration="672000" />
       <workItem from="1651668129031" duration="1563000" />
-      <workItem from="1653045967939" duration="5457000" />
+      <workItem from="1653045967939" duration="5755000" />
     </task>
     <servers />
   </component>
