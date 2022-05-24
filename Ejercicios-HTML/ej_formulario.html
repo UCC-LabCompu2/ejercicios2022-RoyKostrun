@@ -18,26 +18,55 @@
     https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elem_output-->
 
 <h3>Suscribase a Nuestro Portal de Noticias! Crear una cuenta es rápido!</h3>
-Nombre:
-Apellido:
-Sexo: Masculino Femenino
-Edad:
-Email:
-Usuario:
-Password:
-Confirmar Password:
+<form id="formulario_suscripcion">
+    <p>
+        <label for="nombre">Nombre:</label> <input type="text" name="nombre" placeholder="Nombre" id="nombre">
+    </p>
+    <p>
 
-Tipo de servicio: Free / Standard / Premium
-Tema:
-Política
-Negocios
-Tecnología
-Salud
+        <p>  Hola mundo </p>
+        <label for="apellido">Apellido:</label> <input type="text" name="apellido" placeholder="Apellido" id="apellido">
+    </p>
+    <p>
+        Sexo: <label for="masculino">Masculino</label> <input type="radio" name="sexo" value="masculino" id="masculino">
+        <label for="femenino">Femenino</label> <input type="radio" name="sexo" value="femenino" id="femenino">
+    </p>
+    <p>
+        <label for="edad">Edad:</label> <input type="number" name="edad" placeholder="Edad" id="edad">
+    </p>
+    <p>
+        <label for="email">Email:</label> <input type="email" name="email" placeholder="email@dominio.com" id="email">
+    </p>
+    <p>
+        <label for="usuario">Usuario:</label> <input type="text" name="usuario" placeholder="Usuario" id="usuario">
+    </p>
+    <p>
+        <label for="pass">Password:</label> <input type="password" name="pass" placeholder="Contraseña" id="pass">
+    </p>
+    <p>
+        <label for="confirmar_pass">Confirmar Password:</label> <input type="password" name="confirmar_pass" placeholder="Contraseña" id="confirmar_pass">
+    </p>
 
-Agregue un comentario:
-
-Boton de Enviar
-
-
+    <p>
+        Tipo de servicio: <label for="Free">Free</label> <input type="checkbox" name="tipo_de_servicio" value="free" id="Free">/
+        <label for="Standard">Standard</label> <input type="checkbox" name="tipo_de_servicio" value="standard" id="Standard"> /
+        <label for="Premium">Premium</label> <input type="checkbox" name="tipo_de_sevicio" value="premium" id="Premium">
+    </p>
+    <p>
+        <label for="tema">Tema:</label>
+        <select id="tema">
+            <option value="politica"> Política: </option>
+            <option value="negocios"> Negocios </option>
+            <option value="tecnologia"> Tecnología: </option>
+            <option value="salud"> Salud: </option>
+        </select>
+    </p>
+    <p>
+        <label for="comentario">Agregue un comentario:</label> <textarea id="comentario">  </textarea>
+    </p>
+    <p>
+        <button type="button">Boton de Enviar</button>
+    </p>
+</form>
 </body>
 </html>
