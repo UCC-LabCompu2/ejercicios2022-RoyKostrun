@@ -1,14 +1,14 @@
 /**
- * Descripción
- * @method Nombre de la función
- * @param Parámetro A
- * @param Parámetro B
- * @return Valor que retorna
+ * Conversion de unidades, de mettors, yardas, pies y pulgadas.
+ * @method Cambiar Unidades
+ * @param  {string} id - El id de los inputs de metros, yardas, pies o pulgadas.
+ * @param {number} valor - El valor de los de los inputs de metros, yardas, pies o pulgadas
+ * @return
  */
 
 function cambiarUnidades( id, valor ){
      if (isNaN(valor)){
-         alert(" Dato Invalido ");
+         alert(" Dato Invalido " + id);
          document.lasUnidades.unid_metro.value = "";
          document.lasUnidades.unid_pulgada.value = "";
          document.lasUnidades.unid_pie.value = "";
@@ -22,6 +22,12 @@ function cambiarUnidades( id, valor ){
          document.lasUnidades.unid_pie.value = 0.0833333 * valor;
          document.lasUnidades.unid_yarda.value = 0.0277778 * valor;
      } else if (id=="yarda"){
-
+         document.lasUnidades.unid_metro.value = 0.9144 * valor;
+         document.lasUnidades.unid_pulgada.value = 36 * valor;
+         document.lasUnidades.unid_pie.value = 3 * valor;
+     } else if (id=="pie"){
+         document.lasUnidades.unid_metro.value = 0.3048 * valor;
+         document.lasUnidades.unid_pulgada.value = 12 * valor;
+         document.lasUnidades.unid_yarda.value = 0.333333 * valor;
      }
 }
