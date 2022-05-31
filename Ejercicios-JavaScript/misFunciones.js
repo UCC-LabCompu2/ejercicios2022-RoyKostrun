@@ -136,3 +136,22 @@ function cargarResultado(){
     document.getElementById("dist").value = cant + "  " + unid;
     /** console.log(urlComp);  */
 }
+
+function guardarLocalStorage(){
+    let distancia, unidad;
+
+    distancia = document.getElementById("distancia").value;
+    unidad = document.getElementsByName("unidades")[0].value;
+    localStorage.setItem("distanciaLS", distancia);
+    localStorage.setItem("unidadesLS", unidad);
+    window.open('2_web.html');
+}
+
+function  cargarLocalStorage(){
+    let cant, unidad;
+
+    cant = localStorage.getItem("distanciaLS");
+    unidad = localStorage.getItem("unidesLS");
+
+    document.getElementById("dist").value = cant + "  " + unidad;
+}
