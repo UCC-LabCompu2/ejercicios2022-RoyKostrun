@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1767c7c-43f0-400a-873b-ec352862222e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicios-JavaScript/misFunciones.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios-JavaScript/misFunciones.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicios-JavaScript/operacionesMatematicas.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios-JavaScript/operacionesMatematicas.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +47,7 @@
       <workItem from="1651668129031" duration="1563000" />
       <workItem from="1653045967939" duration="9409000" />
       <workItem from="1653902859547" duration="738000" />
-      <workItem from="1653903645795" duration="5581000" />
+      <workItem from="1653903645795" duration="5979000" />
     </task>
     <servers />
   </component>
