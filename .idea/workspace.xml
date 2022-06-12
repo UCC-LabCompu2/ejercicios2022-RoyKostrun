@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1767c7c-43f0-400a-873b-ec352862222e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Ejercicios-JavaScript/1_web.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicios-JavaScript/2_web.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicios-CSS/ej_instagram2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicios-JavaScript/miniPaint.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicios-CSS/ej_cv.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios-CSS/ej_cv.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicios-CSS/ej_instagram.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios-CSS/ej_instagram.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicios-JavaScript/canvas_circulo-cuadrado.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios-JavaScript/canvas_circulo-cuadrado.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicios-JavaScript/canvas_cuadriculado.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios-JavaScript/canvas_cuadriculado.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicios-JavaScript/canvas_x-y.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios-JavaScript/canvas_x-y.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ejercicios-JavaScript/misFunciones.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios-JavaScript/misFunciones.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,11 +41,16 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Ervin/Desktop/ejercicios2022-RoyKostrun",
+    "last_opened_file_path": "C:/Users/Ervin/Desktop/ejercicios2022-RoyKostrun/Ejercicios-CSS",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ervin\Desktop\ejercicios2022-RoyKostrun\Ejercicios-CSS" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,7 +68,10 @@
       <workItem from="1651668129031" duration="1563000" />
       <workItem from="1653045967939" duration="9409000" />
       <workItem from="1653902859547" duration="738000" />
-      <workItem from="1653903645795" duration="9655000" />
+      <workItem from="1653903645795" duration="9915000" />
+      <workItem from="1654007416495" duration="624000" />
+      <workItem from="1654081647018" duration="7330000" />
+      <workItem from="1654687273249" duration="2647000" />
     </task>
     <servers />
   </component>
