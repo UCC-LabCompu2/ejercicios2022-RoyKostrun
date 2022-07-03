@@ -246,37 +246,39 @@ function dibujarCuadriculado(){
     let yMax = canvas.height;
 
     // dibujar lineas horizontales
+    ctx.beginPath();
     for (let i=0; i < yMax;i++){
-        ctx.beginPath();
         ctx.moveTo(0, i);
         ctx.lineTo(xMax, i);
         ctx.strokeStyle = "#252e85";
         ctx.stroke();
-        ctx.closePath()
+
         i = i+20;
     }
+    ctx.closePath()
 
+    ctx.beginPath();
     for (let i=20; i < xMax;i++){
-        ctx.beginPath();
         ctx.moveTo(i, 0);
         ctx.lineTo(i, yMax);
         ctx.strokeStyle = "#1a216c";
         ctx.stroke();
-        ctx.closePath()
+
         i = i+20;
     }
+    ctx.closePath()
 
     ctx.beginPath();
     ctx.moveTo(0, yMax/0);
     ctx.lineTo(xMax, yMax/2);
-    ctx.strokeStyle = "#6c1a1a";
+    ctx.strokeStyle = "#de0a0a";
     ctx.stroke();
     ctx.closePath()
 
     ctx.beginPath();
     ctx.moveTo(xMax/2, 0);
     ctx.lineTo(xMax/2, yMax);
-    ctx.strokeStyle = "#6c1a1a";
+    ctx.strokeStyle = "#e01010";
     ctx.stroke();
     ctx.closePath()
 
