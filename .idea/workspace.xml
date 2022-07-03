@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1767c7c-43f0-400a-873b-ec352862222e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Ejercicios-CSS/ej_instagram2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicios-JavaScript/miniPaint.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicios-CSS/ej_cv.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios-CSS/ej_cv.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicios-CSS/ej_instagram.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios-CSS/ej_instagram.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicios-JavaScript/canvas_circulo-cuadrado.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios-JavaScript/canvas_circulo-cuadrado.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicios-JavaScript/canvas_cuadriculado.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios-JavaScript/canvas_cuadriculado.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicios-JavaScript/canvas_x-y.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios-JavaScript/canvas_x-y.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicios-JavaScript/miniPaint.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios-JavaScript/miniPaint.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ejercicios-JavaScript/misFunciones.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios-JavaScript/misFunciones.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +35,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Ervin/Desktop/ejercicios2022-RoyKostrun/Ejercicios-CSS",
+    "last_opened_file_path": "C:/Users/Ervin/Desktop/proyecto2022-blason_kostrun",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -72,6 +66,10 @@
       <workItem from="1654007416495" duration="624000" />
       <workItem from="1654081647018" duration="7330000" />
       <workItem from="1654687273249" duration="2647000" />
+      <workItem from="1655037773196" duration="199000" />
+      <workItem from="1655043897623" duration="2887000" />
+      <workItem from="1655158469050" duration="5449000" />
+      <workItem from="1656777034671" duration="1977000" />
     </task>
     <servers />
   </component>

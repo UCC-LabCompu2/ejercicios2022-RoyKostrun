@@ -6,7 +6,7 @@
  * @return
  */
 
-function cambiarUnidades( id, valor ){
+function cambiarUnidades( id, valor){
     var metro, pulgada, pie , yarda;
 
     if (valor.includes(",")){
@@ -140,20 +140,20 @@ function cargarResultado(){
 function guardarLocalStorage(){
     let distancia, unidad;
 
-    distancia = document.getElementById("distancia").value;
-    unidad = document.getElementsByName("unidades")[0].value;
+    distancia = document.getElementById('distancia').value;
+    unidad = document.getElementsByName('unidades')[0].value;
     localStorage.setItem("distanciaLS", distancia);
     localStorage.setItem("unidadesLS", unidad);
     window.open('2_web.html');
 }
 
 function  cargarLocalStorage(){
-    let cant, unidad;
+    let cant, unid;
 
     cant = localStorage.getItem("distanciaLS");
-    unidad = localStorage.getItem("unidesLS");
+    unid = localStorage.getItem("unidesLS");
 
-    document.getElementById("dist").value = cant + "  " + unidad;
+    document.getElementById("dist").value = cant + "  " + unid;
 }
 
 function dibujarCirculoCuadrado(){
@@ -173,9 +173,30 @@ function dibujarCirculoCuadrado(){
     ctx.fill();
 }
 
+
+/*
+function  cargargListener(){
+    document.getElementById("lienzoDibujo").addEventListener("mousemove", function (event){
+        let canvas = document.getElementById("lienzoDibujo");
+        let ctx = canvas.getContext("2d");
+
+        let posX = event.clientX;
+        let posY = event.clientY;
+
+        canvas.onmousedown = function (){bandera=true};
+        canvas.onmouseup = function (){bandera=false};
+
+        if(bandera){
+            ctx.fillRect(posX, posY, 5, 5);
+        }
+
+    });
+}
+*/
+
 var bandera;
 
-function dibujar(){
+function dibujar(event){
     let canvas = document.getElementById("lienzoDibujo");
     let ctx = canvas.getContext("2d");
 
@@ -200,22 +221,21 @@ function borrarCanvas(){
     canvas.width = canvas.width;
 }
 
-function  cargargListener(){
-    document.getElementById("lienzoDibujo").addEventListener("mousemove", function (event){
-        let canvas = document.getElementById("lienzoDibujo");
-        let ctx = canvas.getContext("2d");
+function dibujar(event){
+    var canvas = document.getElementById("lienzoDibujo");
+    var ctx = canvas.getContext("2d");
 
-        let posX = event.clientX;
-        let posY = event.clientY;
+    var posX = event.clientX;
+    var posY = event.clientY;
+    console.log(posX, posY);
 
-        canvas.onmousedown = function (){bandera=true};
-        canvas.onmouseup = function (){bandera=false};
+    canvas.onmousedown = function (){bandera=true};
+    canvas.onmouseup = function (){bandera=false};
 
-        if(bandera){
-            ctx.fillRect(posX, posY, 5, 5);
-        }
-
-    });
+    if (bandera){
+        ctx.fillRect(posX, posY, 5, 5);
+        ctx.fill();
+    }
 }
 
 function dibujarCuadriculado(){
@@ -279,3 +299,5 @@ function dibujarAuto(posX, posY){
         console.log("se deberia dibujar la imagen");
     }
 }
+
+
