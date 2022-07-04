@@ -285,13 +285,13 @@ function dibujarCuadriculado(){
 }
 
 function dibujarAuto(posX, posY){
-    let canvas = document.getElementById("myCanvas");
-    let ctx = canvas.getContext("2d");
-    let img;
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+
 
     canvas.width = canvas.width;
 
-    img = new Image();
+    var img = new Image();
     img.src = "images/auto.png"
 
     console.log(posX, posY)
@@ -300,6 +300,26 @@ function dibujarAuto(posX, posY){
         ctx.drawImage(img, posX, posY);
         console.log("se deberia dibujar la imagen");
     }
+}
+
+x = 0;
+dx = 2; // para que el auto se desplace de a dos pixeles
+function animarAuto(){
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+
+    canvas.width = canvas.width;
+
+    var img = new Image();
+    img.src = "images/auto.png"
+
+    img.onload = function (){
+        ctx.drawImage(img, x, 100);
+    }
+    if ( x > canvas.width ){
+        x = 0;
+    }
+    x += dx;
 }
 
 
