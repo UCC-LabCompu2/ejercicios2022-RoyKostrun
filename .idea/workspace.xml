@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1767c7c-43f0-400a-873b-ec352862222e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Ejercicios-HTML/ej_animales.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios-HTML/ej_animales.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicios-HTML/ej_noticia.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios-HTML/ej_noticia.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +68,7 @@
       <workItem from="1655037773196" duration="199000" />
       <workItem from="1655043897623" duration="2887000" />
       <workItem from="1655158469050" duration="5449000" />
-      <workItem from="1656777034671" duration="11525000" />
+      <workItem from="1656777034671" duration="12482000" />
     </task>
     <servers />
   </component>
